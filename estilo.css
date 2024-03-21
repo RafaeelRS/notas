@@ -26,8 +26,15 @@ body {
 		margin: 0 auto;
 	}
 	header h1#titulo {
-		font-size: 1.9rem;
-		margin-top: 1.875rem;
+		font-size: 1.7rem;
+		margin-top: 1rem;
+	}
+
+	div.tabela-topo > table{
+		width: 100%;
+	}
+	div.tabela-topo > table th, td{
+		font-size: 1rem;
 	}
 	
 	h2 {
@@ -43,23 +50,23 @@ body {
 		margin-top: 1.25rem;
 	}
 	p {
-		font-size: 1rem;
+		font-size: 0.9rem;
 	}
 
 	figure {
-		font-size: 1rem;
+		font-size: 0.9rem;
 	}
 
 	ul, ol {
-		font-size: 1rem;
+		font-size: 0.9rem;
 	}
 
 	blockquote {
-		font-size: 1rem;
+		font-size: 0.9rem;
 	}
 
 	th, td {
-		font-size: 1rem;
+		font-size: 0.9rem;
 	}
 }
 
@@ -69,6 +76,7 @@ header {
 	margin: 50px auto;
 	justify-items: center;
 	align-items: center;
+	align-self: center;
 }
 
 header > h1#titulo {
