@@ -30,6 +30,10 @@ body {
 		margin-top: 0.5rem;
 	}
 
+	table {
+		width: 100%;
+	}
+
 	div.tabela-topo > table{
 		width: 100%;
 	}
