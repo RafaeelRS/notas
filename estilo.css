@@ -79,7 +79,8 @@ h3 {
 }
 
 div.tabela-topo > table{
-	width: 100%;
+	width: 80%;
+	margin: 0 auto;
 }
 
 h1 {
