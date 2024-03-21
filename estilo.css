@@ -34,6 +34,48 @@ body {
 	}
 }
 
+@media screen and (max-width: 620px) {
+	body {
+		font-size: 100%;
+		margin: 1em auto;
+		padding: 0.1rem;
+		color: rgb(55, 53, 47);
+	}
+	h1 {
+		font-size: 1.875rem;
+		margin-top: 1.875rem;
+	}
+	
+	h2 {
+		font-size: 1.5rem;
+		margin-top: 1.5rem;
+	}
+	
+	h3 {
+		font-size: 1.25rem;
+		margin-top: 1.25rem;
+	}
+	p {
+		font-size: 1.1rem;
+	}
+
+	figure {
+		font-size: 1rem;
+	}
+
+	ul, ol {
+		font-size: 1rem;
+	}
+
+	blockquote {
+		font-size: 1rem;
+	}
+
+	th, td {
+		font-size: 1rem;
+	}
+}
+
 header {
 	display: flex;
 	margin: 50px auto;
